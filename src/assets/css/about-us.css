@@ -19,7 +19,7 @@
 
 .main-call:after  {
     content: "";
-    background: url('/assets/imgs/construction-silhouettes.jpg');
+    background: url('/vjpengenharia/src/assets/imgs/construction-silhouettes.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

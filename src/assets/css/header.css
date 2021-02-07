@@ -53,11 +53,11 @@
 }
 
 .menu-button.open-menu {
-    background-image: url('/assets/icons/menu.svg');
+    background-image: url('/vjpengenharia/src/assets/icons/menu.svg');
 }
 
 .menu-button.close-menu {
-    background-image: url('/assets/icons/close.svg');
+    background-image: url('/vjpengenharia/src/assets/icons/close.svg');
 }
 
 .menu .menu-header {
