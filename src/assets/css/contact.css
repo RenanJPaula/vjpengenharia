@@ -1,0 +1,35 @@
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1024;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    margin-bottom: 3rem;
+    min-height: 30vh;
+}
+
+.contact ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact ul li {
+    margin: .5rem;
+}
+
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}

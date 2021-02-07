@@ -1,0 +1,84 @@
+
+.about-us p {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.main-call {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    position: relative;
+    height: 75vh;
+}
+
+.main-call:after  {
+    content: "";
+    background: url('/assets/imgs/construction-silhouettes.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+.main-call h2 {
+    font-size: 2.5rem;
+}
+
+.contact-and-budget {
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: .8rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contact-and-budget:hover {
+    background-color: rgba(255,255,255,0.8);
+    transition: background-color .3s ease-out;
+}
+
+.contact-and-budget .highlight{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us .whatsapp-icon {
+    width: 14px;
+    height: 14px;
+    margin-left: 4px;
+}
+
+.about-us .complement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+
+.about-us .complement p{
+    max-width: 1024px;
+}
