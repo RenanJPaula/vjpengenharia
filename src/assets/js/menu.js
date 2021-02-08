@@ -29,8 +29,8 @@
 
     if (Jump) {
         var menuLinks = document.querySelectorAll('nav a');
-        for (var i; i< menuLinks.length; i++) {
-            menuLink[i].addEventListener('click', function (e) {
+        for (var i = 0; i< menuLinks.length; i++) {
+            menuLinks[i].addEventListener('click', function (e) {
                 var destinySelector = e.target.getAttribute('href');
                 var destinyTarget = document.querySelector(destinySelector);
                 removeClass(menu, 'open');
