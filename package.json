@@ -1,0 +1,32 @@
+{
+  "name": "vjpengenharia",
+  "version": "1.0.0",
+  "description": "Website institucional",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenanJPaula/vjpengenharia.git"
+  },
+  "keywords": [
+    "VJP",
+    "Engenharia"
+  ],
+  "author": "Renan Johannsen de Paula",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RenanJPaula/vjpengenharia/issues"
+  },
+  "homepage": "https://github.com/RenanJPaula/vjpengenharia#readme",
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "graceful-fs": "4.2.2",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^5.0.0",
+    "gulp-util": "^3.0.8"
+  }
+}

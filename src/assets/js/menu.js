@@ -3,7 +3,7 @@
     var openMenuButton = document.querySelector('.open-menu');
     var closeMenuButton = document.querySelector('.close-menu');
     var menu = document.querySelector('.menu');
-    
+
     function addClass(element, newClass) {
         var classes = element.className.split(' ');
         classes.push(newClass);
@@ -29,8 +29,8 @@
 
     if (Jump) {
         var menuLinks = document.querySelectorAll('nav a');
-        for (var menuLink of menuLinks) {
-            menuLink.addEventListener('click', function (e) {
+        for (var i; i< menuLinks.length; i++) {
+            menuLink[i].addEventListener('click', function (e) {
                 var destinySelector = e.target.getAttribute('href');
                 var destinyTarget = document.querySelector(destinySelector);
                 removeClass(menu, 'open');
